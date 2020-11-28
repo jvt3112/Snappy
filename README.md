@@ -9,35 +9,35 @@ For more information refer : Report.
 - - - -
 ## Following commands are supported by Snappy:
 1. help: show supported commands and their usage
-    - Usage: ```$ help```
+    - Usage: ```$ snappy help```
     
 1. create: create snapshot of the input directory, optional flag -d to add description
-    - Usage: ```$ create [Directory]```
-    - Usage: ```$ create [Directory] -d [Description]```
+    - Usage: ```$ snappy create [Directory]```
+    - Usage: ```$ snappy create [Directory] -d [Description]```
 
 2. revert: revert to some older version
-    - Usage: ```$ revert [Directory] [SnapNum]```
+    - Usage: ```$ snappy revert [Directory] [SnapNum]```
 
 3. cleanup: remove all the snapshots and store the snapshot of the latest version       
-    - Usage: ```$ cleanup [Directory]```
+    - Usage: ```$ snappy cleanup [Directory]```
 
 4. compare: lists the difference between the contents of folder/files 
-    - Usage: ```$ compare [SnapNum1] [SnapNum2] [Directory]```
+    - Usage: ```$ snappy compare [SnapNum1] [SnapNum2] [Directory]```
 
 5. status: lists out the modified or added file in 2 folders, flag -i for including identical files       
-    - Usage: ```$ status -i(optional) [SnapNum1] [SnapNum2] [Directory]```
+    - Usage: ```$ snappy status -i(optional) [SnapNum1] [SnapNum2] [Directory]```
 
 6. delete: delete a specific snap of a directory
-    - Usage: ```$ delete [Snap_Number] [Directory]```
+    - Usage: ```$ snappy delete [Snap_Number] [Directory]```
 
 7. listsnap: list out the snapshots taken of the directory 
-    - Usage: ```$ listsnap [Directory]```
+    - Usage: ```$ snappy listsnap [Directory]```
 
 8. logsnap: displays the changes done to the directory
-    - Usage: ```$ logsnap [Directory]```
+    - Usage: ```$ snappy logsnap [Directory]```
 
 9. desc: attach a description to a snapshot
-    - Usage: ```$ desc [SnapNum] [Directory] [Description]```
+    - Usage: ```$ snappy desc [SnapNum] [Directory] [Description]```
 - - - -
 ## Contributors
 [Aishna Agrawal](https://github.com/aishna-agrawal) | [Janvi Thakkar](https://github.com/jvt3112) | [Mihir Jain](https://github.com/mihirjain-iitgn) | [Priyam Tongia](https://github.com/Priyam1418)
