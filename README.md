@@ -5,7 +5,7 @@ For more information refer : Report.
 - - - -
 ## Installation
 1. Clone the repository
-2. Inside Local Repository Run ```$ make ```
+2. Inside Local Repository Run ```$ make snap```
 - - - -
 ## Following commands are supported by Snappy:
 1. help: show supported commands and their usage
